@@ -15,11 +15,11 @@ def aufbau(electronNum, element="X"):
     # Result text
     result = "Configuration of Element " + str(element) + " is: "
 
-    loop = True
+    
     if (electronNum == 29) or (electronNum == 24):
         return(result + exceptions[electronNum])
     else:    
-        while loop:
+        while True:
             l = orbitals[configurationStep][1]
             ml = mlDict[l]
             mln = (2*ml+1)*2
@@ -42,8 +42,7 @@ def aufbau(electronNum, element="X"):
                 return(result + configuration)
                 break
 
-loop2 = True
-while loop2:
+while True:
     try:
         eNum = int(input("Type the number: "))
         print(aufbau(eNum,"that you selected"))
