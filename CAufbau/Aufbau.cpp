@@ -24,14 +24,13 @@ int main()
 
     // Variables
     string configuration = "";
-    string element = "";
     int electronNum;
     int configurationStep = 0;
     int e = 0;
     bool loop = true;
 
     // Result text
-    string result = "Configuration of Element " + element + " is: ";
+    string result = "Configuration of Element that you selected is: ";
 
     std::cout << "Say the electron number: ";
     std::cin >> electronNum;
