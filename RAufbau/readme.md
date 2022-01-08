@@ -1,4 +1,4 @@
-NOTE
+# NOTE
 
 A special thanks to void (aka enum void{}) and MultisampledNight!
 
